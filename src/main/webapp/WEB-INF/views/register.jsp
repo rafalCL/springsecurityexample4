@@ -9,7 +9,6 @@
 
 <%@ include file="jspf/head_config.jspf"%>
 
-<title>SpringSecurityExample3</title>
 </head>
 <body>
 	<%@ include file="jspf/header.jspf"%>

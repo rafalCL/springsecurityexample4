@@ -24,16 +24,26 @@
 			<artifactId>spring-security-core</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>4.2.1.RELEASE</version>
+		</dependency>
+
 
 		<!-- OTHER -->
 
@@ -101,7 +111,7 @@
 		</dependency>
 
 	</dependencies>
-	
+
 	<build>
 		<finalName>SpringSecurityExample4</finalName>
 	</build>
