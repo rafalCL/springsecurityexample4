@@ -6,7 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<java.compiler.source>1.8</java.compiler.source>
@@ -52,7 +51,6 @@
 			<version>${org.springframework.version}</version>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -76,7 +74,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -88,14 +85,6 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.11.1.RELEASE</version>
-		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>${org.springframework.version}</version>
 		</dependency>
 
 		<dependency>
@@ -111,12 +100,10 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!-- Apache Commons IO <dependency> <groupId>commons-io</groupId> <artifactId>commons-io</artifactId> 
-			<version>2.4</version> </dependency> -->
 	</dependencies>
+	
 	<build>
-		<finalName>SpringSecurityExample3</finalName>
+		<finalName>SpringSecurityExample4</finalName>
 	</build>
-
 
 </project>
